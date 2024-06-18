@@ -1,6 +1,9 @@
 # Singapore_Resale_Flat_Price_Prediction
 A Regression Machine Learning model is built to predict the Resale Flat Price in Singapore Resale market. User can provide several input details such as the town the flat is located in, floor size, flat type, flat model and lease commencement year and get the predicted resale price of a flat in Singapore | Python | Machine Learning | Sklearn | Pandas | Streamlit |
 
+![git_pic](https://github.com/Abinaya-Ganesh/Singapore_Resale_Flat_Price_Prediction/assets/162968618/f71a2616-bdb0-4914-ae56-b4dda366608f)
+
+
 **Introduction**
 
   The resale flat market in Singapore is highly competitive, and it can be challenging to accurately estimate the resale value of a flat. There are many factors that can
