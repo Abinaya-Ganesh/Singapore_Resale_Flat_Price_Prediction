@@ -128,6 +128,6 @@ Enter the town in which the flat is located, the flat type and model, storey ran
     
   • The Sg_dahboard.py file consists of the code for Streamlit dashboard creation
 
-  • Data is downloaded as csv files from the Singapore Government webiste linkk provided in the Problem Statement file
+  • Data is downloaded as csv files from the Singapore Government webiste link provided in the Problem Statement file
 
-  • The pickled models are also uploaded which can be used in the Streamlit file
+  • The pickled models are not uploaded as the size is huge
