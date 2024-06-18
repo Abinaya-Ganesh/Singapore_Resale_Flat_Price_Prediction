@@ -1,2 +1,99 @@
 # Singapore_Resale_Flat_Price_Prediction
-User can provide several input details such as the town the flat is located in, floor size, flat type, flat model and lease commencement year and get the predicted resale price of a flat in Singapore | Python | Machine Learning | Sklearn | Pandas | Streamlit |
+A Regression Machine Learning model is built to predict the Resale Flat Price in Singapore Resale market. User can provide several input details such as the town the flat is located in, floor size, flat type, flat model and lease commencement year and get the predicted resale price of a flat in Singapore | Python | Machine Learning | Sklearn | Pandas | Streamlit |
+
+**Introduction**
+
+  The resale flat market in Singapore is highly competitive, and it can be challenging to accurately estimate the resale value of a flat. There are many factors that can
+affect resale prices, such as location, flat type, floor area, and lease duration. A predictive model can help to overcome these challenges by providing users with an
+estimated resale price based on these factors. 
+
+**User Guide**
+
+Enter the town in which the flat is located, the flat type and model, storey range, lease commencement date, the flat sale date and floor area in square meters to get the resale price prediction by clicking the predict resale price button on the Streamlit app.
+
+**Developer Guide**
+
+**1.Tools required**
+
+  • Python
+
+  • Visual Studio Code
+
+  **2.Python libraries to install**
+  **a.For dashboard creation**
+
+    • Streamlit
+
+  **b.For Analysis**
+
+    • matplotlib.pyplot
+
+    • Seaborn
+
+    • scipy.stats
+
+    • Numpy
+
+    • Pandas
+
+  **c.For Machine Learning models**
+
+    • Scikit-learn
+
+    • xgboost
+
+  **3. Modules to import**
+
+  a. File handling Libraries
+
+    • import pickle
+    
+    • import os
+
+  b. Pandas Library
+
+    • import pandas
+
+  c. Numerical calculatoins Library
+
+    • import numpy as np
+
+    • from scipy.stats import skew
+
+  d. Visualization Libraries
+
+    • import matplotlib.pyplot as plt
+
+    • import seaborn as sns
+
+  e. Dashboard Libraries
+
+    • import streamlit as st
+
+  f. Machine Learning Libraries
+
+    • from sklearn.preprocessing import OneHotEncoder
+
+    • from sklearn.model_selection import train_test_split
+
+    •  from sklearn.preprocessing import StandardScaler
+    
+    • from sklearn.metrics import mean_squared_error, r2_score
+    
+    • from sklearn.linear_model import LinearRegression
+
+    • from sklearn.tree import DecisionTreeRegressor
+    
+    • from sklearn.ensemble import RandomForestRegressor
+    
+    • from sklearn.ensemble import AdaBoostRegressor
+
+    • from sklearn.ensemble import ExtraTreesRegressor
+
+    • from sklearn.ensemble import GradientBoostingRegressor
+
+    • from xgboost import XGBRegressor
+
+  g. Others
+
+    • import warnings
