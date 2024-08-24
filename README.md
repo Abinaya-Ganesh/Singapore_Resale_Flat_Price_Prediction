@@ -113,9 +113,9 @@ Enter the town in which the flat is located, the flat type and model, storey ran
 
     • Categorical columns are one hot encoded
 
-    • Regression model is chosen after training several models and getting their accuracy
+    • Regression model is chosen after training several models and getting their R-squared values
 
-    • The Random Forest Regressor model which gives 97.5% accuracy is chosen
+    • The Random Forest Regressor model which gives 97.5% R-squared value is chosen
 
     • The selected models are pickled which can be used in the Streamlit app file
 
